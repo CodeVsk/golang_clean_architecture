@@ -1,0 +1,12 @@
+GET http://localhost:3030/products
+
+###
+
+POST http://localhost:3030/products
+Content-Type: application/json
+
+{
+  "name": "LCD 2",
+  "slug": "lcd2",
+  "price": 12.12
+}
